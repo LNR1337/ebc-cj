@@ -292,6 +292,10 @@ setupPlayer()
 	self.cj["rpgsustain"] = 0;
 	self.client_respawns = 0;
 	self.cj["ggUsedTime"] = 0;
+	// Custom Load/Save
+	self.cj["custom_load"] = 0;
+	self.cj["custom_save"] = 0;
+	
 	self initHudStuff();
 
 	if(!isDefined(self.cj["positionLog"]))

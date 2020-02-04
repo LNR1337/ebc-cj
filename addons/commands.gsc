@@ -27,7 +27,7 @@ Callback_ScriptCommandPlayer(command, args)
 			}
 			else if (!isDefined(args[0]))
 			{
-				self iprintLn("Usage: $load <save number>");
+				self iprintLn("Usage: $load <load number>");
 			} 
 			else 
 			{
